@@ -1,0 +1,6 @@
+human: opa
+ai: Olá?
+human: tudo bom?
+ai: Olá?
+human: salve salve!
+ai: Olá?
