@@ -28,3 +28,7 @@ print(prompt_substituido)
 ## Caracteres de escape (\n e \t)
 prompt_com_quebra_de_linha = "Olá, como você está?\n\tEstou bem, obrigado!"
 print(prompt_com_quebra_de_linha)
+
+## Comprimento da string - len()
+comprimento_string = len(prompt)
+print(comprimento_string)
