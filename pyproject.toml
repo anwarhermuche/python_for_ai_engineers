@@ -1,0 +1,19 @@
+[project]
+name = "python-for-ai-engineers"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Anwar Hermuche",email = "anwarhermuche2@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "python_for_ai_engineers", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
