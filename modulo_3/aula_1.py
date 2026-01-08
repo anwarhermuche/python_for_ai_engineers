@@ -33,3 +33,17 @@ print(fatorial(5))
 # Função lambda
 soma = lambda x: x + 1
 print(soma(1))
+
+# Decorador
+def decorador(funcao):
+    def wrapper(*args, **kwargs):
+        print(f"Somando os valores {args[0]} e {args[1]}")
+        resultado = funcao(*args, **kwargs)
+        print(f"O resultado da soma é {resultado}")
+        return resultado
+    return wrapper
+
+@decorador
+def soma(x: int, y: int) -> int:
+    return x + y
+print(soma(1, 2))

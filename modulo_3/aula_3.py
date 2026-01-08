@@ -1,4 +1,5 @@
-# Importando uma função de um módulo
-from modulo_teste_aula_3 import soma
-print(soma(1, 2))
+import numpy 
 
+# Criando uma matriz com numpy
+matriz = numpy.zeros((3, 2))
+print(matriz)
