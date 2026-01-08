@@ -1,0 +1,57 @@
+row_id,chat_id,sender,content,created_at,channel,customer_id
+1,chat_1001,human,"  Oi, meu boleto não chegou.  ",2026-01-07T09:01:12Z,whatsapp,c_001
+2,chat_1001,AI,"Claro! Vou verificar. Qual seu e-mail?",2026-01-07T09:01:15Z,whatsapp,c_001
+3,chat_1001,human,"meu email é joao.teste+1@gmail.com",2026-01-07T09:01:40Z,whatsapp,c_001
+4,chat_1001,assistant,"Entendi. Vou mascarar seus dados e te orientar: acesse a área ''Financeiro'' e gere a 2ª via.",2026-01-07T09:01:55Z,whatsapp,c_001
+5,chat_1002,cliente,"Não consigo logar... fica dando erro 500",07/01/2026 10:03,chat,c_002
+6,chat_1002,bot,"Poderia tentar limpar o cache e tentar novamente?",2026-01-07 10:03:12,chat,c_002
+7,chat_1002,cliente,"ok",2026-01-07 10:03:30,chat,c_002
+8,chat_1002,bot,"Se persistir, me diga seu CPF (apenas para confirmar).",2026-01-07 10:03:42,chat,c_002
+9,chat_1002,cliente,"123.456.789-10",2026-01-07 10:03:58,chat,c_002
+10,chat_1002,bot,"Obrigado. Registrei e vou abrir um chamado.",2026-01-07 10:04:10,chat,c_002
+11,chat_1003,humaN,"  Meu cartão foi cobrado duas vezes!!! 😡😡  ",2026/01/07 11:20:05,email,c_003
+12,chat_1003,ai,"Sinto muito. Vou te ajudar: pode me enviar o ID do pedido?",2026/01/07 11:20:14,email,c_003
+13,chat_1003,human,"pedido: #A-9981",2026/01/07 11:20:40,email,c_003
+14,chat_1003,ai,"Perfeito. Vou verificar duplicidade e te retorno. <br> Enquanto isso, confira se houve estorno pendente.",2026/01/07 11:21:02,email,c_003
+15,chat_1004,, "teste",2026-01-07T12:00:00Z,chat,c_004
+16,chat_1004,system,"SYSTEM: migration completed",2026-01-07T12:00:05Z,chat,c_004
+17,chat_1004,human,"Quero cancelar minha assinatura.",2026-01-07T12:01:10Z,chat,c_004
+18,chat_1004,ai,"Posso ajudar. Você quer cancelar imediatamente ou ao fim do ciclo?",2026-01-07T12:01:18Z,chat,c_004
+19,chat_1004,human,"ao fim do ciclo",2026-01-07T12:01:33Z,chat,c_004
+20,chat_1004,ai,"Certo. Vou registrar o cancelamento para o fim do ciclo e te confirmo por e-mail.",2026-01-07T12:01:44Z,chat,c_004
+21,chat_1005,human,"Meu app trava quando clico em ""Pagamentos"", aparece uma tela branca.",2026-01-07T13:44:09Z,whatsapp,c_005
+22,chat_1005,AI,"Entendi. Qual é a versão do app e do seu celular? (ex: iOS 17 / Android 14)",2026-01-07T13:44:16Z,whatsapp,c_005
+23,chat_1005,human,"android 14, app 2.9.1",2026-01-07T13:44:31Z,whatsapp,c_005
+24,chat_1005,assistant,"Obrigado! Tente: 1) fechar o app 2) limpar cache 3) reiniciar. Se não resolver, envie print.",2026-01-07T13:44:55Z,whatsapp,c_005
+25,chat_1005,human,"👍",2026-01-07T13:45:10Z,whatsapp,c_005
+26,chat_1006,human,"Where can I download the invoice?",2026-01-07T14:02:01Z,email,c_006
+27,chat_1006,ai,"You can download it in your dashboard under Billing → Invoices.",2026-01-07T14:02:10Z,email,c_006
+28,chat_1007,human,"  não recebi o código de verificação no sms   ",2026-01-07T15:10:00Z,sms,c_007
+29,chat_1007,ai,"Vamos resolver. Confirma seu número com DDD? Ex: +55 11 99999-9999",2026-01-07T15:10:07Z,sms,c_007
+30,chat_1007,human,"+55 11 98888-7777",2026-01-07T15:10:22Z,sms,c_007
+31,chat_1007,ai,"Obrigado. Tente novamente em 2 minutos e verifique bloqueio de SMS/antispam. Se falhar, podemos usar e-mail.",2026-01-07T15:10:44Z,sms,c_007
+32,chat_1008,human,"Quero mudar o e-mail da conta.",invalid_date,chat,c_008
+33,chat_1008,ai,"Claro. Por segurança, preciso confirmar seu e-mail atual e o novo.",2026-01-07T16:00:11Z,chat,c_008
+34,chat_1008,human,"atual: maria@exemplo.com novo: maria.nova@exemplo.com",2026-01-07T16:00:30Z,chat,c_008
+35,chat_1008,ai,"Perfeito. Vou atualizar e te envio confirmação.",2026-01-07T16:00:45Z,chat,c_008
+36,chat_1009,human,"Cancelei mas ainda veio cobrança no cartão",2026-01-07T16:22:10Z,whatsapp,c_009
+37,chat_1009,ai,"Entendi. Me diga a data da cobrança e os 4 últimos dígitos do cartão.",2026-01-07T16:22:18Z,whatsapp,c_009
+38,chat_1009,human,"data 05/01 e final 1234",2026-01-07T16:22:39Z,whatsapp,c_009
+39,chat_1009,ai,"Obrigado. Vou verificar se foi cobrança de renovação automática ou pendência de ciclo. Se for indevida, aciono estorno.",2026-01-07T16:23:05Z,whatsapp,c_009
+40,chat_1010,human,"Esqueci minha senha",2026-01-07T17:10:01Z,chat,c_010
+41,chat_1010,ai,"Você pode redefinir em 'Entrar' → 'Esqueci minha senha'. Quer que eu te mande o link?",2026-01-07T17:10:06Z,chat,c_010
+42,chat_1010,human,"sim",2026-01-07T17:10:22Z,chat,c_010
+43,chat_1010,ai,"Segue: acesse a tela de login e clique em 'Esqueci minha senha'. Um e-mail será enviado.",2026-01-07T17:10:40Z,chat,c_010
+44,chat_1010,ai,"Segue: acesse a tela de login e clique em 'Esqueci minha senha'. Um e-mail será enviado.",2026-01-07T17:10:40Z,chat,c_010
+45,chat_1011,human,"Meu pedido atrasou.\nEra pra ter chegado ontem.",2026-01-07T18:05:11Z,email,c_011
+46,chat_1011,assistant,"Entendi. Pode me informar o código de rastreio? Se não tiver, me diga o número do pedido.",2026-01-07T18:05:20Z,email,c_011
+47,chat_1011,human,"pedido B-7712",2026-01-07T18:05:44Z,email,c_011
+48,chat_1011,assistant,"Obrigado. Vou consultar o status e te retorno com a previsão atualizada e próximos passos.",2026-01-07T18:06:05Z,email,c_011
+49,chat_1012,human,"quero falar com humano!!!!!",2026-01-07T19:12:00Z,whatsapp,c_012
+50,chat_1012,ai,"Claro. Vou te direcionar para um atendente. Enquanto isso, descreva o problema em 1 frase.",2026-01-07T19:12:08Z,whatsapp,c_012
+51,chat_1012,human,"cobrança errada",2026-01-07T19:12:20Z,whatsapp,c_012
+52,chat_1012,ai,"Entendi. Já encaminhei. Para agilizar: qual foi o valor e a data da cobrança?",2026-01-07T19:12:35Z,whatsapp,c_012
+53,chat_1013,human,"N/A",2026-01-07T20:01:01Z,chat,c_013
+54,chat_1013,ai,"Pode explicar melhor o que você precisa? Eu consigo ajudar com pagamentos, acesso, entregas e cancelamento.",2026-01-07T20:01:10Z,chat,c_013
+55,chat_1014,human,"  ???  ",2026-01-07T20:30:00Z,chat,c_014
+56,chat_1014,ai,"Não entendi sua dúvida. Me diga: é sobre acesso, cobrança, entrega ou cancelamento?",2026-01-07T20:30:09Z,chat,c_014
