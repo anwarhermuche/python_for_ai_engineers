@@ -38,6 +38,10 @@ print(igual)
 diferente = 10 != 5
 print(diferente)
 
+## Negação
+negacao = not (10 == 10)
+print(negacao)
+
 ## Maior que
 maior = 10 > 5
 print(maior)
