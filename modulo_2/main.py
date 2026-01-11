@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/150bsJNuuPEhTeUqUp0UzQu0mVb348Meg?usp=sharing
+# ============================================================================
+
 """
 # PROJETO 2 — CHAT COM MEMÓRIA PERSISTENTE
 

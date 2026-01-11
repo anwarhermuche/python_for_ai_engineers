@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/1vA3vKv-XIqcMu5C0EUdbphH69BOk8Dip?usp=sharing
+# ============================================================================
+
 """
 # PROJETO — SIMPLE VECTOR STORE
 

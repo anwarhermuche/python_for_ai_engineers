@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/12byCah1WbnHsSdnsfnArDkm_UVfOIZ4t?usp=sharing
+# ============================================================================
+
 """
 # PROJETO 1 — PROMPT PACKER (BÁSICO)
 

@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/1nywVNv_rAPsUbCiYtiGmBGguqlkYyfLL?usp=sharing
+# ============================================================================
+
 """
 # PROJETO DO MÓDULO — TOKEN USAGE DASHBOARD
 

@@ -1,5 +1,6 @@
 from langchain.tools import tool
 from datetime import datetime
+import requests
 
 @tool
 def get_current_time() -> str:
@@ -23,3 +24,21 @@ def count_words_in_phrase(phrase: str) -> int:
       - Número de palavras na frase
     """
     return len(phrase.split())
+
+@tool
+def get_pokemon_info(pokemon_name: str) -> str:
+    """
+    Útil para obter informações básicas de um Pokémon.
+
+    Args:
+      - pokemon_name: Nome do Pokémon para obter informações
+
+    Returns:
+      - Informações básicas do Pokémon
+    """
+    url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return f"Erro ao obter informações do Pokémon {pokemon_name}"

@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
-from tools import get_current_time, count_words_in_phrase
+from tools import get_current_time, count_words_in_phrase, get_pokemon_info
 from langchain.agents import create_agent
 from langchain_core.messages import SystemMessage,HumanMessage, AIMessage, ToolMessage, AnyMessage
 
@@ -13,7 +13,7 @@ class CLIAssistant:
         self.model = model if model.startswith("openai:") else f"openai:{model}"
         self.history = self.load_history()
         self.system_prompt = system_prompt
-        self.agent = create_agent(self.model, tools = [get_current_time, count_words_in_phrase])
+        self.agent = create_agent(self.model, tools = [get_current_time, count_words_in_phrase, get_pokemon_info])
 
     def load_history(self) -> list[AnyMessage]:
         with open(self.history_path, "r") as f:

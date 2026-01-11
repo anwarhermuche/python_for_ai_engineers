@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/1bGyth-7r-JcTw96pXjj4IYNfnpxWZLWu?usp=sharing
+# ============================================================================
+
 """
 # PROJETO — MODEL PROVIDER SDK (SIMULADO)
 

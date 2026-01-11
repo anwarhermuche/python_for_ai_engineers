@@ -10,7 +10,15 @@
 
 **De Zero a Pipelines de Dados Profissionais**
 
-*Curso completo para formar a base técnica sólida necessária para construir sistemas de IA, focando em boas práticas, manipulação de dados textuais/vetoriais e engenharia de software.*
+_Curso completo para formar a base técnica sólida necessária para construir sistemas de IA, focando em boas práticas, manipulação de dados textuais/vetoriais e engenharia de software._
+
+---
+
+### 🎓 Este curso faz parte da [Formação Engenheiro de IA](https://dascia.academy)
+
+[![DasCia Academy](https://img.shields.io/badge/DasCia%20Academy-Formação%20Engenheiro%20de%20IA-FF6B6B?style=for-the-badge)](https://dascia.academy)
+
+> 🆓 **Acesse [dascia.academy](https://dascia.academy)** para ter acesso a este e diversos outros cursos sobre Engenharia de IA. **Há cursos gratuitos disponíveis!**
 
 </div>
 
@@ -90,34 +98,18 @@ LLAMA_API_KEY=sk-sua-chave-aqui
 ```
 python_for_ai_engineers/
 ├── modulo_1/                    # Fundamentos & Versionamento
-│   ├── aula_1.py               # Primeiro código (print, comentários)
-│   ├── aula_2.py               # Variáveis e tipos de dados
-│   ├── aula_3.py               # Manipulação de strings e f-strings
-│   ├── aula_4.py               # Operadores aritméticos e lógicos
 │   └── main.py                 # 🏆 Projeto: Prompt Packer
 │
 ├── modulo_2/                    # Estruturas de Dados & Persistência
-│   ├── aula_1.py               # Listas e Tuplas
-│   ├── aula_2.py               # Dicionários (Hash Maps)
-│   ├── aula_3.py               # Estruturas condicionais (if/else)
-│   ├── aula_4.py               # Estruturas de repetição (for/while)
-│   ├── aula_5.py               # Manipulação de arquivos & Context Managers
 │   ├── conversation_history.txt
 │   └── main.py                 # 🏆 Projeto: Persistent Chat History
 │
 ├── modulo_3/                    # Profissionalização
-│   ├── aula_1.py               # Funções, escopo e type hinting
-│   ├── aula_2.py               # Erros e exceções (try/except)
-│   ├── aula_3.py               # Poetry - Gestão de dependências
-│   ├── aula_4.py               # Modularização e imports
 │   ├── calculadora.py          # Módulo de cálculo de custos
 │   ├── log.txt                 # Log de execuções
 │   └── main.py                 # 🏆 Projeto: Token Cost Calculator
 │
 ├── modulo_4/                    # POO e Integrações
-│   ├── aula_1.py               # Introdução à POO (classes, objetos)
-│   ├── aula_2.py               # Herança e polimorfismo
-│   ├── aula_3.py               # Variáveis de ambiente (.env)
 │   ├── models/
 │   │   ├── base.py             # Classe base ModeloBase
 │   │   ├── openai.py           # Subclasse OpenAIModel
@@ -125,23 +117,16 @@ python_for_ai_engineers/
 │   └── main.py                 # 🏆 Projeto: Model Provider SDK
 │
 ├── modulo_5/                    # NumPy - Vetores
-│   ├── aula_1.py               # Introdução ao NumPy (arrays, performance)
-│   ├── aula_2.py               # Operações vetoriais e similaridade
 │   ├── vector_store.py         # Classe VectorStore
 │   └── main.py                 # 🏆 Projeto: Simple Vector Store
 │
 ├── modulo_6/                    # Pandas - ETL
-│   ├── aula_1.py               # DataFrames e carregamento de dados
-│   ├── aula_2.py               # Limpeza de dados (Data Cleaning)
-│   ├── aula_3.py               # Manipulação de texto e exportação
 │   ├── etl.py                  # Classe ETL (pipeline completo)
 │   ├── support_logs_dirty.csv  # Dataset sujo de entrada
 │   ├── training_data.jsonl     # Dataset limpo de saída
 │   └── main.py                 # 🏆 Projeto: Fine-Tuning Dataset Prepper
 │
 ├── modulo_7/                    # Matplotlib - Visualização
-│   ├── aula_1.py               # Gráficos de barras e linhas
-│   ├── aula_2.py               # Histogramas e boxplots
 │   ├── models/
 │   │   ├── dataset_reader.py   # Classe DatasetReader
 │   │   ├── token_stats.py      # Classe TokenStats
@@ -150,10 +135,6 @@ python_for_ai_engineers/
 │   └── main.py                 # 🏆 Projeto: Token Usage Dashboard
 │
 ├── modulo_8/                    # LangChain & Agentes
-│   ├── aula_2.py               # Models & Messages (ChatOpenAI)
-│   ├── aula_3.py               # Structured Outputs (Pydantic)
-│   ├── aula_4.py               # Tool Calling (@tool)
-│   ├── aula_5.py               # Agentes (create_agent)
 │   ├── tools.py                # Ferramentas customizadas
 │   ├── cli_assistant.py        # Classe CLIAssistant
 │   ├── conversation_history.txt
@@ -177,19 +158,22 @@ python_for_ai_engineers/
 
 > **Foco:** Aprender a sintaxe básica, lógica de programação e versionamento com Git.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/12byCah1WbnHsSdnsfnArDkm_UVfOIZ4t?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 1.1 | O Ambiente e o Primeiro Código | Instalação Python 3.13+, Cursor, Poetry, `print()`, comentários |
-| 1.2 | Variáveis e Tipos de Dados | `str`, `int`, `float`, `bool`, casting, `type()` |
-| 1.3 | Manipulação de Texto (Strings) | `input()`, f-strings, `.strip()`, `.lower()`, `.replace()`, `\n`, `\t` |
-| 1.4 | Operadores Aritméticos e Lógicos | `+`, `-`, `*`, `/`, `%`, `==`, `!=`, `>`, `<` |
-| 1.5 | Git e GitHub | `git init`, `git add`, `git commit`, `git push`, `.gitignore` |
+#### Conteúdo Teórico
+
+| Aula | Tema                             | Conteúdo                                                               |
+| ---- | -------------------------------- | ---------------------------------------------------------------------- |
+| 1.1  | O Ambiente e o Primeiro Código   | Instalação Python 3.13+, Cursor, Poetry, `print()`, comentários        |
+| 1.2  | Variáveis e Tipos de Dados       | `str`, `int`, `float`, `bool`, casting, `type()`                       |
+| 1.3  | Manipulação de Texto (Strings)   | `input()`, f-strings, `.strip()`, `.lower()`, `.replace()`, `\n`, `\t` |
+| 1.4  | Operadores Aritméticos e Lógicos | `+`, `-`, `*`, `/`, `%`, `==`, `!=`, `>`, `<`                          |
+| 1.5  | Git e GitHub                     | `git init`, `git add`, `git commit`, `git push`, `.gitignore`          |
 
 #### 🏆 Projeto: Prompt Packer
 
 Script que recebe via terminal:
+
 - Role, tom de voz, tarefa e número máximo de palavras
 - Monta um prompt final usando f-strings
 - Estima quantidade de palavras (1 palavra ≈ 6.11 caracteres)
@@ -219,19 +203,22 @@ dentro_do_intervalo = numero_maximo - 10 <= palavras_estimadas <= numero_maximo 
 
 > **Foco:** Dominar estruturas de dados e persistir informações em arquivos.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/150bsJNuuPEhTeUqUp0UzQu0mVb348Meg?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 2.1 | Listas e Tuplas | Índices, slicing, `.append()`, `.insert()`, `.extend()` |
-| 2.2 | Dicionários | Chave-valor `{"role": "user"}`, `.get()`, `.pop()` |
-| 2.3 | Estruturas Condicionais | `if`, `elif`, `else` |
-| 2.4 | Estruturas de Repetição | `for`, `while`, `range()`, list comprehension |
-| 2.5 | Manipulação de Arquivos | `open()`, modos `w`, `r`, `a`, context managers `with` |
+#### Conteúdo Teórico
+
+| Aula | Tema                    | Conteúdo                                                |
+| ---- | ----------------------- | ------------------------------------------------------- |
+| 2.1  | Listas e Tuplas         | Índices, slicing, `.append()`, `.insert()`, `.extend()` |
+| 2.2  | Dicionários             | Chave-valor `{"role": "user"}`, `.get()`, `.pop()`      |
+| 2.3  | Estruturas Condicionais | `if`, `elif`, `else`                                    |
+| 2.4  | Estruturas de Repetição | `for`, `while`, `range()`, list comprehension           |
+| 2.5  | Manipulação de Arquivos | `open()`, modos `w`, `r`, `a`, context managers `with`  |
 
 #### 🏆 Projeto: Persistent Chat History
 
 Chat via terminal com memória persistente:
+
 - Lê histórico salvo em arquivo `.txt` ao iniciar
 - Loop contínuo de conversa até digitar `/stop`
 - Cada mensagem salva usando `with open(...)`
@@ -249,14 +236,16 @@ with open("./modulo_2/conversation_history.txt", "a") as historico:
 
 > **Foco:** O salto de "Scripter" para "Engenheiro". Organização de projeto e tipagem forte.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/1kmdYgl44uaxKSOIobIdGOSMYbx9bIu-2?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 3.1 | Funções e Escopo | Princípio DRY, `def`, parâmetros, `return`, type hinting |
-| 3.2 | Erros e Exceções | `try/except`, `raise`, tipos de exceções |
-| 3.3 | Poetry | `poetry init`, `poetry add`, `poetry run`, `pyproject.toml` |
-| 3.4 | Modularização | Dividir código em módulos, imports |
+#### Conteúdo Teórico
+
+| Aula | Tema             | Conteúdo                                                    |
+| ---- | ---------------- | ----------------------------------------------------------- |
+| 3.1  | Funções e Escopo | Princípio DRY, `def`, parâmetros, `return`, type hinting    |
+| 3.2  | Erros e Exceções | `try/except`, `raise`, tipos de exceções                    |
+| 3.3  | Poetry           | `poetry init`, `poetry add`, `poetry run`, `pyproject.toml` |
+| 3.4  | Modularização    | Dividir código em módulos, imports                          |
 
 #### 🏆 Projeto: Token Cost Calculator
 
@@ -284,13 +273,15 @@ def calcular_custo_total(modelo: str,
 
 > **Foco:** Criar objetos robustos e usar bibliotecas de terceiros.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/1bGyth-7r-JcTw96pXjj4IYNfnpxWZLWu?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 4.1 | Introdução à POO | Classes vs Objetos, `__init__`, `self` |
-| 4.2 | Herança e Polimorfismo | Classe base genérica, subclasses, `super()` |
-| 4.3 | Variáveis de Ambiente | `python-dotenv`, `.env`, segurança de API Keys |
+#### Conteúdo Teórico
+
+| Aula | Tema                   | Conteúdo                                       |
+| ---- | ---------------------- | ---------------------------------------------- |
+| 4.1  | Introdução à POO       | Classes vs Objetos, `__init__`, `self`         |
+| 4.2  | Herança e Polimorfismo | Classe base genérica, subclasses, `super()`    |
+| 4.3  | Variáveis de Ambiente  | `python-dotenv`, `.env`, segurança de API Keys |
 
 #### 🏆 Projeto: Model Provider SDK
 
@@ -315,12 +306,14 @@ class OpenAIModel(ModeloBase):
 
 > **Foco:** Entender Embeddings e Busca Semântica na prática.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/1vA3vKv-XIqcMu5C0EUdbphH69BOk8Dip?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 5.1 | Introdução ao NumPy | Arrays vs Listas, performance, conceito de vetor |
-| 5.2 | Operações Vetoriais | Produto escalar, distância de cosseno, similaridade |
+#### Conteúdo Teórico
+
+| Aula | Tema                | Conteúdo                                            |
+| ---- | ------------------- | --------------------------------------------------- |
+| 5.1  | Introdução ao NumPy | Arrays vs Listas, performance, conceito de vetor    |
+| 5.2  | Operações Vetoriais | Produto escalar, distância de cosseno, similaridade |
 
 #### Comparação de Performance
 
@@ -341,10 +334,10 @@ class VectorStore:
         distances = []
         for document, vector in zip(self.documents, self.vectors):
             # Distância de cosseno
-            distance = 1 - (np.dot(query, vector) / 
+            distance = 1 - (np.dot(query, vector) /
                           (np.linalg.norm(query) * np.linalg.norm(vector)))
             distances.append((distance, document))
-        
+
         distances.sort(key=lambda x: x[0])
         return distances[:k]
 ```
@@ -355,13 +348,15 @@ class VectorStore:
 
 > **Foco:** Limpar e preparar dados textuais para RAG ou Fine-Tuning.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/1FZZVXnM9N9IM1mN4-QUyZprz4SZS8V3f?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 6.1 | DataFrames e Carregamento | `read_csv`, `read_json`, `head()`, `info()`, `describe()` |
-| 6.2 | Limpeza de Dados | `dropna`, `drop_duplicates`, filtragem booleana |
-| 6.3 | Manipulação de Texto | String methods em massa, exportação JSONL |
+#### Conteúdo Teórico
+
+| Aula | Tema                      | Conteúdo                                                  |
+| ---- | ------------------------- | --------------------------------------------------------- |
+| 6.1  | DataFrames e Carregamento | `read_csv`, `read_json`, `head()`, `info()`, `describe()` |
+| 6.2  | Limpeza de Dados          | `dropna`, `drop_duplicates`, filtragem booleana           |
+| 6.3  | Manipulação de Texto      | String methods em massa, exportação JSONL                 |
 
 #### 🏆 Projeto: Fine-Tuning Dataset Prepper
 
@@ -380,8 +375,14 @@ class ETL:
 ```
 
 **Saída no formato para Fine-Tuning:**
+
 ```json
-{"messages":[{"role":"user","content":"..."},{"role":"assistant","content":"..."}]}
+{
+  "messages": [
+    { "role": "user", "content": "..." },
+    { "role": "assistant", "content": "..." }
+  ]
+}
 ```
 
 ---
@@ -390,12 +391,14 @@ class ETL:
 
 > **Foco:** Visualizar o que está acontecendo com seus dados/modelos.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/1nywVNv_rAPsUbCiYtiGmBGguqlkYyfLL?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 7.1 | Gráficos Básicos | Barras, linhas, títulos, labels |
-| 7.2 | Visualizando Dados de IA | Histogramas, distribuição de tokens, outliers |
+#### Conteúdo Teórico
+
+| Aula | Tema                     | Conteúdo                                      |
+| ---- | ------------------------ | --------------------------------------------- |
+| 7.1  | Gráficos Básicos         | Barras, linhas, títulos, labels               |
+| 7.2  | Visualizando Dados de IA | Histogramas, distribuição de tokens, outliers |
 
 #### 🏆 Projeto: Token Usage Dashboard
 
@@ -422,15 +425,17 @@ TOPIC_RULES = {
 
 > **Foco:** Transformar código estático em sistemas cognitivos. Python como linguagem de orquestração de IA.
 
-#### Aulas
+📓 **[Acesse a Teoria no Google Colab](https://colab.research.google.com/drive/1lXo7_P-3PkO6Pj0lUrE0LDTl7gwfTUt4?usp=sharing)**
 
-| Aula | Tema | Conteúdo |
-|------|------|----------|
-| 8.1 | Ecossistema LangChain | Por que usar? Conceito de "Cadeias" |
-| 8.2 | Models & Messages | `ChatOpenAI`, `SystemMessage`, `HumanMessage`, `AIMessage` |
-| 8.3 | Structured Outputs | `.with_structured_output()`, Pydantic |
-| 8.4 | Tool Calling | Decorador `@tool`, `bind_tools()` |
-| 8.5 | Agentes | Loop ReAct, `create_agent()` |
+#### Conteúdo Teórico
+
+| Aula | Tema                  | Conteúdo                                                   |
+| ---- | --------------------- | ---------------------------------------------------------- |
+| 8.1  | Ecossistema LangChain | Por que usar? Conceito de "Cadeias"                        |
+| 8.2  | Models & Messages     | `ChatOpenAI`, `SystemMessage`, `HumanMessage`, `AIMessage` |
+| 8.3  | Structured Outputs    | `.with_structured_output()`, Pydantic                      |
+| 8.4  | Tool Calling          | Decorador `@tool`, `bind_tools()`                          |
+| 8.5  | Agentes               | Loop ReAct, `create_agent()`                               |
 
 #### Exemplo: Extração de Dados com Structured Output
 
@@ -456,7 +461,7 @@ class CLIAssistant:
             get_current_time,      # Retorna data/hora atual
             count_words_in_phrase  # Conta palavras em frase
         ])
-    
+
     def run(self) -> None:
         while True:
             user_input = input("Você: ")
@@ -484,16 +489,16 @@ def count_words_in_phrase(phrase: str) -> int:
 
 ## 🛠 Tecnologias Utilizadas
 
-| Tecnologia | Versão | Uso |
-|------------|--------|-----|
-| **Python** | 3.13+ | Linguagem principal |
-| **Poetry** | 2.0+ | Gestão de dependências |
-| **NumPy** | 2.4.0+ | Operações vetoriais e matemáticas |
-| **Pandas** | 2.3.3+ | Manipulação e limpeza de dados |
-| **Matplotlib** | 3.10.8+ | Visualização de dados |
-| **LangChain** | 1.2.3+ | Framework de agentes |
-| **LangChain-OpenAI** | 1.1.7+ | Integração com OpenAI |
-| **python-dotenv** | 1.2.1+ | Variáveis de ambiente |
+| Tecnologia           | Versão  | Uso                               |
+| -------------------- | ------- | --------------------------------- |
+| **Python**           | 3.13+   | Linguagem principal               |
+| **Poetry**           | 2.0+    | Gestão de dependências            |
+| **NumPy**            | 2.4.0+  | Operações vetoriais e matemáticas |
+| **Pandas**           | 2.3.3+  | Manipulação e limpeza de dados    |
+| **Matplotlib**       | 3.10.8+ | Visualização de dados             |
+| **LangChain**        | 1.2.3+  | Framework de agentes              |
+| **LangChain-OpenAI** | 1.1.7+  | Integração com OpenAI             |
+| **python-dotenv**    | 1.2.1+  | Variáveis de ambiente             |
 
 ---
 
@@ -546,17 +551,40 @@ poetry run python modulo_8/main.py
 
 ---
 
+## 📚 Links das Aulas (Google Colab)
+
+| Módulo | Tema                               | Link                                                                                                 |
+| ------ | ---------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 1      | Fundamentos & Versionamento        | [Abrir Colab](https://colab.research.google.com/drive/12byCah1WbnHsSdnsfnArDkm_UVfOIZ4t?usp=sharing) |
+| 2      | Estruturas de Dados & Persistência | [Abrir Colab](https://colab.research.google.com/drive/150bsJNuuPEhTeUqUp0UzQu0mVb348Meg?usp=sharing) |
+| 3      | Funções, Módulos & Poetry          | [Abrir Colab](https://colab.research.google.com/drive/1kmdYgl44uaxKSOIobIdGOSMYbx9bIu-2?usp=sharing) |
+| 4      | POO e Integrações                  | [Abrir Colab](https://colab.research.google.com/drive/1bGyth-7r-JcTw96pXjj4IYNfnpxWZLWu?usp=sharing) |
+| 5      | NumPy - Vetores                    | [Abrir Colab](https://colab.research.google.com/drive/1vA3vKv-XIqcMu5C0EUdbphH69BOk8Dip?usp=sharing) |
+| 6      | Pandas - ETL                       | [Abrir Colab](https://colab.research.google.com/drive/1FZZVXnM9N9IM1mN4-QUyZprz4SZS8V3f?usp=sharing) |
+| 7      | Matplotlib - Visualização          | [Abrir Colab](https://colab.research.google.com/drive/1nywVNv_rAPsUbCiYtiGmBGguqlkYyfLL?usp=sharing) |
+| 8      | LangChain & Agentes                | [Abrir Colab](https://colab.research.google.com/drive/1lXo7_P-3PkO6Pj0lUrE0LDTl7gwfTUt4?usp=sharing) |
+
+---
+
 ## 👨‍💻 Autor
 
 **Anwar Hermuche**
 
 - Email: anwarhermuche2@gmail.com
+- Formação: [DasCia Academy](https://dascia.academy)
 
 ---
 
 <div align="center">
 
+### 🚀 Quer se tornar um Engenheiro de IA?
+
+[![DasCia Academy](https://img.shields.io/badge/Acesse-DasCia%20Academy-FF6B6B?style=for-the-badge)](https://dascia.academy)
+
+**Cursos gratuitos e formação completa em Engenharia de IA**
+
+---
+
 **⭐ Se este curso te ajudou, deixe uma estrela no repositório!**
 
 </div>
-

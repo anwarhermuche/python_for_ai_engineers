@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/1FZZVXnM9N9IM1mN4-QUyZprz4SZS8V3f?usp=sharing
+# ============================================================================
+
 """
 # PROJETO — FINE-TUNING DATASET PREPPER
 

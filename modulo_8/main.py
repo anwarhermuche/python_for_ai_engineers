@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/1lXo7_P-3PkO6Pj0lUrE0LDTl7gwfTUt4?usp=sharing
+# ============================================================================
+
 """
 # PROJETO DO MÓDULO — THE CLI ASSISTANT
 
@@ -11,6 +17,10 @@ da conversa entre execuções.
   - Retorna a data e hora atual usando datetime
 - count_words_in_phrase(phrase: str)
   - Retorna a quantidade de palavras em uma frase
+- get_pokemon_info(pokemon_name: str) 
+  - Consulta a PokeAPI (https://pokeapi.co/) usando requests
+  - Retorna informações básicas (Nome, ID, Altura, Peso, Tipos)
+  - Deve tratar erros caso o Pokémon não seja encontrado
 
 --------------------------------------------------
 CLASSE PRINCIPAL: CLIAssistant
@@ -50,12 +60,15 @@ REGRAS OBRIGATÓRIAS:
 - Cada mensagem do usuário e cada resposta do assistente devem ser salvas (inclui as mensagens das Tools)
 - A decisão da ferramenta deve ser feita pelo agente criado com create_agent
 - O assistente deve reaproveitar o histórico entre execuções
+- A ferramenta de Pokémon DEVE utilizar a biblioteca `requests`
+- A ferramenta de Pokémon DEVE tratar exceções (ex: status code 404) para não quebrar o agente
 
 ## Estruturas que devem ser utilizadas:
 - Classes e métodos
 - Funções para representar ferramentas
 - Loop `while`
 - Manipulação de arquivos para memória persistente
+- Requisições HTTP (requests) e tratamento de erros (try/except)
 """
 
 # Importando a classe CLIAssistant

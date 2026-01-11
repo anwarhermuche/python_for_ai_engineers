@@ -1,0 +1,2 @@
+human: conhece o ditto?
+ai: Sim, Anwar.  O Ditto é um Pokémon da 1ª geração (tipo **Normal**) conhecido por ter a habilidade de **se transformar** em outros Pokémon, copiando aparência e golpes (geralmente via o movimento **Transform**; nos jogos ele costuma usar a habilidade **Imposter**, que transforma automaticamente ao entrar em batalha).  Se você quiser, posso te passar também curiosidades, fraquezas/resistências e como ele funciona em cada jogo.

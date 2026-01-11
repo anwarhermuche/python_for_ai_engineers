@@ -1,3 +1,9 @@
+# ============================================================================
+# TEORIA DESTE MÓDULO:
+# Acesse o Google Colab com todo o conteúdo teórico em:
+# https://colab.research.google.com/drive/1kmdYgl44uaxKSOIobIdGOSMYbx9bIu-2?usp=sharing
+# ============================================================================
+
 """
 # PROJETO — TOKEN COST CALCULATOR
 
